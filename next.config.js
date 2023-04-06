@@ -1,6 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
+  images: {
+    domains: ['i.imgur.com', 'res.cloudinary.com','cdn.akamai.steamstatic.com','cdn.cloudflare.steamstatic.com'],
+  },
   reactStrictMode: true,
 }
-
-module.exports = nextConfig
